@@ -1,0 +1,13 @@
+def calc():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+
+    add = a + b
+    subtraction = a-b
+    mult = a * b
+    div = a/b
+  
+    print("The result is: " , add, subtraction, mult, div)
+
+
+calc()
