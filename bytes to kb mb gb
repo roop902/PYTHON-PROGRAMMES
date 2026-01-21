@@ -1,0 +1,13 @@
+# bytes to kb, mb, gb
+
+def conversion():
+
+    bytes = float(input("Enter bytes: "))
+
+    kb = bytes / 1024
+    mb = kb / 1024
+    gb = mb / 1024
+
+    print("Bytes to kb, mb, gb is: ", kb, mb, gb)
+
+conversion()
