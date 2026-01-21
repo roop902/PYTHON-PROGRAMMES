@@ -1,0 +1,12 @@
+# rupees to dollar
+
+def conversion():
+
+
+    rupees = float(input("Enter amount in rupees: "))
+
+    dollar = rupees / 48
+
+    print("Conversion is: ", dollar)
+
+conversion()
