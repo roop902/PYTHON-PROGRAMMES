@@ -1,0 +1,12 @@
+#grams to kg
+
+
+def conversion():
+    gram =  float(input("Enter value in gram: "))
+
+    kg = gram / 1000
+
+    print("The value in kg is: ", kg)
+
+
+conversion()
