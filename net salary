@@ -1,0 +1,6 @@
+def net_salary(g):
+    return g + (0.10 * g) - (0.03 * g)
+
+g = float(input("Enter gross salary: "))
+
+print("Net Salary:", net_salary(g))
