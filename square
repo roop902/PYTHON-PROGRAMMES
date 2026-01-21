@@ -1,0 +1,9 @@
+def square_area_perimeter(s):
+    return s*s, 4*s
+
+s = float(input("Enter side of square: "))
+
+area, perimeter = square_area_perimeter(s)
+
+print("Area:", area)
+print("Perimeter:", perimeter)
