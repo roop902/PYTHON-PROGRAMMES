@@ -1,0 +1,10 @@
+def calculate_interest(P, R, N):
+    return (P * R * N) / 100
+
+P = float(input("Enter Principal: "))
+R = float(input("Enter Rate of Interest: "))
+N = float(input("Enter Time (in years): "))
+
+I = calculate_interest(P, R, N)
+
+print("Simple Interest:", I)
