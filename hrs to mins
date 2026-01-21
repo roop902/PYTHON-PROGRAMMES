@@ -1,0 +1,12 @@
+# hours to minutes
+
+def conversion():
+
+    hours = int(input("Enter hour: "))
+
+    minutes = hours * 60
+
+    print("The conversion is", minutes)
+
+
+conversion()
