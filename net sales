@@ -1,0 +1,7 @@
+def net_sales(g):
+    return g - (0.10 * g)
+
+g = float(input("Enter gross sales: "))
+
+print("Net Sales:", net_sales(g))
+
