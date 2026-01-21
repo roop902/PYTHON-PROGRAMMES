@@ -1,0 +1,11 @@
+# subtract two numbers
+
+
+def subtract():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    diff = a - b
+    print("The subtraction of ",a,"and ",b,"is ",diff)
+
+
+subtract()
