@@ -1,0 +1,12 @@
+def mod():
+
+    a=int(input("Enter number: "))
+
+    if a>0:
+        print(a)
+
+    else:
+        print(a-2*a)
+
+    
+mod()
