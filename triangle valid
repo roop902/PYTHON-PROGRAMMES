@@ -1,0 +1,15 @@
+def triangle():
+
+
+    a=float(input("enter 1st angle of triangle: "))
+    b=float(input("enter 2nd angle of triangle: "))
+    c=float(input("enter 3rd angle of triangle: "))
+
+    sum=a+b+c
+
+    if sum==180:
+        print("triangle is valid")
+    else:
+        print("triangle is not valid")
+
+triangle()
