@@ -1,0 +1,9 @@
+def digits():
+
+    a=int(input("Enter a number: "))
+
+    x=str(a)
+
+    print(len(x))
+
+digits()
