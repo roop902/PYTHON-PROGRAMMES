@@ -1,0 +1,17 @@
+import random
+
+def q3_lst():
+    lst = [random.randint(1,30) for x in range (50)]  #list comprehension
+    print(lst)
+
+    new_lst=[]
+    for i in lst:
+        if i not in new_lst:
+            new_lst.append(i)
+
+print ("unique list is:", new_lst)
+
+
+
+q3_lst()
+           
