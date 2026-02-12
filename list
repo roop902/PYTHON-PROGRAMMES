@@ -5,6 +5,9 @@ for i in range (5):
     odd_lst.append(random.randrange(1,99,2))
 print("odd numbers list is: ", odd_lst)
 
+## using comprehension##
+##odd_lst=[random.randrange(1,99,2) for in range(5)]
+
 for i in range(4):
     even_lst.append(random.randrange(2,100,2))
 print("even numbers list is: ", even_lst)
