@@ -1,0 +1,16 @@
+def boy_girls():
+
+    students= ["roop","hetvi","jiya",("jay","veer"),"dhruvi"]
+    boys=0
+    girls=0
+    for i in list:
+        if isinstance(i,tuple):
+            boys=boys+1+len(i)
+        else:
+            girls=girls+1
+        print("the no. of boys are (boys)")
+        print("the no. of girls are (girls)")
+
+boy_girls()
+        
+             
