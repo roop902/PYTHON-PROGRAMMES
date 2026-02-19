@@ -1,0 +1,14 @@
+def student():
+    lst=[("damon","100","145"),("stefan","190","215"),("Katherine","85","88")]
+    roll=[]
+    name=[]
+    age=[]
+    for n,r,a in lst:
+         roll.append(r)
+         name.append(n)
+         age.append(a)
+    print("names are:", name)
+    print("roll numbers are:", roll)
+    print("age are:", age)
+
+student()
