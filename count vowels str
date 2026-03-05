@@ -1,0 +1,13 @@
+def vowels():
+
+    str = input("Enter a string: ")
+    str = str.lower()
+    A = str.count('a')
+    E = str.count('e')
+    I = str.count('i')
+    O = str.count('o')
+    U = str.count('u')
+
+    print("The total no.of vowels are: ", A+E+I+O+U)
+
+vowels()
