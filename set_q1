@@ -4,8 +4,18 @@ def subjects():
     print("The subjects chosen by s1 and s2 are: ", s1, s2)
 
     print("the common subjects are: ", s1.intersection(s2))
+    print("the subjects taken by s1 only are: ", s1.difference(s2))
+    print("the subjects taken by s2 only are: ", s2.difference(s1))
+    print("the total unique subjects are: ", s1.union(s2))
+    
+
 
 subjects()
+
+    
+
+    
+    
 
     
 
