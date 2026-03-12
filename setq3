@@ -1,0 +1,6 @@
+def duplicate():
+    lst = [10,20,30,50,10,20]
+    set = set(lst)
+    print(lst)
+    print(set)
+duplicate()
