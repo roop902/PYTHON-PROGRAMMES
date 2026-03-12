@@ -1,0 +1,16 @@
+def people():
+    d1 = {'john', 'jake', 'jeremy', 'jonathan'}
+    d2 = {'jonathan', 'jake', 'katrina' ,'kiya'}
+    print("The people visited on d1 and d2 are: ", d1, d2)
+
+    print("the people who visited both: ", d1.intersection(d2))
+    print("the people who visited only on day 1 are: ", d1.difference(d2))
+    print("thetotal unique visitors of both days are: ", d2.union(d1))
+ 
+
+people()
+
+    
+
+    
+    
