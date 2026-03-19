@@ -1,0 +1,8 @@
+def compute(n):
+    s = 0
+    for i in range(1,5):
+        s = s + int(str(n)*i)
+    return (s)
+for n in range(4,8):
+    print(f"{n} + {n}{n} + {n}{n}{n} + {n}{n}{n}{n} = {compute(n)}")
+
